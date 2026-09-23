@@ -45,7 +45,7 @@ class dbConn:
 
         backup_table = sqlite3.connect("back_movie.db")
         conn.backup(backup_table)
-        print("Data BackUp Successfully Done!!")
+        # print("Data BackUp Successfully Done!!")
 
         conn.commit()
         conn.close()
