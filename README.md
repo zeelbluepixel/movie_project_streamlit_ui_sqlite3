@@ -296,8 +296,8 @@ For example, it can store:
 Example:
 
 ```python
-if "admin_login" not in st.session_state:
-    st.session_state.admin_login = False
+if "page" not in st.session_state:
+    st.session_state.page = False
 ```
 
 ## Advantages of Streamlit Version
